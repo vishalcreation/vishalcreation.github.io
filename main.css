@@ -13,7 +13,7 @@ body {
     height: 70vh;
     opacity: 0.8;
     background-color: lightgrey;
-    background-image: url(images/Upper_background.jpg);
+    background-image: url(./images/Upper_background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
