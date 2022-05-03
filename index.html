@@ -127,12 +127,21 @@
             <div id="contact-container">
 
                 <div id="contact-form-container">
-                    <form id="contact-form">
+                    <form id="contact-form" action="mailto: shubham_bt18@iiitkalyani.ac.in" method="POST" >
                         <input id="input-name" name="name" type="text" placeholder="Your Name">
-                        <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
-                        <textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message"></textarea>
-                        <button class="sub-btn" type="submit">SEND MESSAGE</button>
+                        <input id="input-email" name="email" type="text" required placeholder="Your Email">
+                        <textarea id="input-message" name="message" type = "textarea" rows="2" cols=40 placeholder="Message"></textarea>
+                        <button class="sub-btn" type="submit" value="Send Email">SEND MESSAGE</button>
                     </form>
+                    <!-- <form action="mailto:contact@yourdomain.com"
+                        method="POST"
+                        enctype="multipart/form-data"
+                        name="EmailForm">
+                        Name:<br>
+                        <input type="text" size="19" name="ContactName"><br><br>
+                        Message:<br> <textarea name="ContactCommentt" rows="6" cols="20">
+                       </textarea><br><br> <input type="submit" value="Submit"> 
+                    </form> -->
                 </div>
                 <div id="my-details-container">
 
